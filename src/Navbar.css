@@ -1,0 +1,59 @@
+:root{
+    --mainColor: rgb(145, 103, 27);
+}
+header{
+    background-color: rgb(195, 177, 177);
+}
+.container{
+    width: 95%;
+    background-color: rgb(195, 177, 177);
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 130px;
+    padding: 0.5em 0;
+}
+.listItem{
+    margin-left: 2em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.activeItem{
+    color: red;
+    border-bottom: 1px solid red;
+}
+@media screen and (max-width:768px) {
+
+    html{
+        font-size: 11px;
+    }
+    .container-flex{
+        flex-direction: column;
+    }
+    .logo{
+        width: 150ox;
+    }
+}
+@media screen and (max-width:480px) {
+    html{
+        font-size: 11px;
+    }
+    .list{
+        flex-direction: row;
+    }
+    .listItem{
+        margin-top: 0.2em;
+    }
+.logo{
+    width: 100px;
+}
+
+
+}

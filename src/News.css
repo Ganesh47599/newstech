@@ -1,0 +1,13 @@
+.news{
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 140px;
+    width: 70%;
+    display: flex;
+   border: 1em;
+    justify-content: space-between;
+}
+.newsContainer{
+    justify-content: space-between;
+    
+}

@@ -1,0 +1,35 @@
+footer{
+    position: fixed;
+    bottom: 0;
+   
+    width: 100%;
+    padding: 5px;
+}
+.icon{
+    margin-right: 1em;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.copyright{
+    text-align: center;
+    color: #fff;
+   
+    margin-right: 70px;
+}
+.containerX{
+    background-color: black;
+    padding-top: 5px;
+}
+.line{
+    width: 30%;
+  padding: 0.1em;
+  background-color: black;
+
+    
+}
+button{
+    margin-bottom: 0.5em;
+    color: aqua;
+}
+
+

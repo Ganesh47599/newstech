@@ -1,0 +1,10 @@
+.staff{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.staffs{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 510px;
+    flex-wrap: wrap;
+}
